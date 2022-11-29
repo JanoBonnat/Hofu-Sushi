@@ -254,13 +254,18 @@ h4{
     display: grid;
     align-items: center;
     grid-template-columns: 500px 500px;
+    /*background-color: #cc1010;*/
 }
 
 .titulo{
-    margin-left: 40px;
-    background-color: orange;
+    margin-left: -20px;
+    /*background-color: orange;*/
     width: 500px;
-    font-size: 30px;
+    font-size: 25px;
+}
+
+.logo{
+    margin-left: 15%;
 }
 
 
