@@ -106,8 +106,8 @@ ul{
     background-color: orange;
     position: absolute;
     z-index: 1; /*agrego z-index para que esté detrás del texto*/
-    top: -80px; /*con este top la capa no es visible*/
-    left: 0;
+    top: 50%; /*con este top la capa no es visible*/
+    left: 50%;
     transition: .3s ease-in-out all;
 }
 
