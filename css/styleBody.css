@@ -101,8 +101,8 @@ ul{
 
 .boton::after{ /*ayuda a crear un elemento dentro del boton*/
     content: ""; /*con la propiedad de content agrego el elemento */
-    height: 100%;
-    width: 100%;
+    height: 1px;
+    width: 1px;
     background-color: orange;
     position: absolute;
     z-index: 1; /*agrego z-index para que esté detrás del texto*/
