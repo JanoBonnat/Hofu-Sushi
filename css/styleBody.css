@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .parent{
     display: grid;
     grid-template-rows: auto;
@@ -248,8 +252,14 @@ h4{
 }
 
 .titulo_y_logo{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    background-color: yellow;
+    grid-column-gap: 100px;
+    text-align: center;
 }
+
 
 
 
