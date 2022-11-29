@@ -112,7 +112,8 @@ ul{
 }
 
 .boton:hover::after{
-    top: 0; /*con este top la capa baja cuando se pasa el cursor por encima"*/
+    transform: scale(400);
+    background: #cc1010;
 }
 
 .cabecera{
