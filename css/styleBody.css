@@ -250,14 +250,17 @@ h4{
 .btn:disabled{
     background-color: var(--linea--borde--vacio);
 }
-
 .titulo_y_logo{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
     align-items: center;
-    background-color: yellow;
-    grid-column-gap: 100px;
-    text-align: center;
+    grid-template-columns: 500px 500px;
+}
+
+.titulo{
+    margin-left: 40px;
+    background-color: orange;
+    width: 500px;
+    font-size: 30px;
 }
 
 
