@@ -103,7 +103,7 @@ ul{
     content: ""; /*con la propiedad de content agrego el elemento */
     height: 1px;
     width: 1px;
-    background-color: orange;
+    background-color: none;
     position: absolute;
     z-index: 1; /*agrego z-index para que esté detrás del texto*/
     top: 50%; /*con este top la capa no es visible*/
