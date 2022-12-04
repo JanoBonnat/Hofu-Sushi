@@ -212,7 +212,7 @@ h4{
     left: 0;
     transform: translateY(-50%);
     height: 4px;
-    width: 0;
+    width: 0%;
     z-index: -1; /*Esto sirve para que la barra esté detrás de los numeros*/
     transition: 0,4s ease; /*Tiempo de transición */
 }

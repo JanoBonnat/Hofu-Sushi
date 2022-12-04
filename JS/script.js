@@ -38,4 +38,6 @@ function update(){
     } );
 
     const actives = document.querySelectorAll('.active');
+
+    progreso.style.width = ((actives.length -1) / (circulos.length -1))*100 + '%'; //aumneta el tamaño de la barra de progreso
 }
