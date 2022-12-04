@@ -2,6 +2,7 @@ const progreso = document.getElementById('progreso');
 const anterior = document.getElementById('anterior');
 const siguiente = document.getElementById('siguiente');
 const circulos = document.querySelectorAll('.circulo');
+const p = document.getElementById('p');
 
 let currentActive = 1; //variable para saber a qué nivel de los pasos vamos
 

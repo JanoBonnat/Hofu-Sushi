@@ -259,6 +259,17 @@ h4{
     outline: 0;
 }
 
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    margin-bottom: 20px;
+    background: #999;
+
+}
+
 /*BARRA DE PROGRESO*/
 
 
@@ -280,6 +291,8 @@ h4{
 .logo{
     margin-left: 15%;
 }
+
+
 
 
 /*.circulo{
