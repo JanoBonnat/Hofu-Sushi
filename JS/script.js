@@ -40,4 +40,14 @@ function update(){
     const actives = document.querySelectorAll('.active');
 
     progreso.style.width = ((actives.length -1) / (circulos.length -1))*100 + '%'; //aumneta el tamaño de la barra de progreso
+
+    if(currentActive === 1){
+        anterior.disabled = true;
+    }else if(currentActive === circulos.length){
+        siguiente.disabled = true;
+        anterior.disabled = false
+    }else{
+        siguiente.disabled = false;
+        anterior.disabled = false;
+    }
 }
