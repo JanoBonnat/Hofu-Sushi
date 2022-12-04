@@ -42,7 +42,7 @@ function update(){
 
     progreso.style.width = ((actives.length -1) / (circulos.length -1))*100 + '%'; //aumneta el tamaño de la barra de progreso
 
-    if(currentActive === 1){
+    /*if(currentActive === 1){
         anterior.disabled = true;
     }else if(currentActive === circulos.length){
         siguiente.disabled = true;
@@ -50,5 +50,21 @@ function update(){
     }else{
         siguiente.disabled = false;
         anterior.disabled = false;
+    }*/
+
+    if(currentActive === 1){
+        anterior.disabled = true;
+        siguiente.disabled = false;
+    }else if(currentActive === 2){
+        p.textContent = "Bien, vos?";
+        anterior.disabled = false;
+        siguiente.disabled = false;
+    }else if(currentActive === 3){
+        p.textContent = 'Todo bien, gracias.';
+        anterior.disabled = false;
+        siguiente.disabled = false;
+    }else if(currentActive === circulos.length){
+        p.textContent = "CHAU";
+        siguiente.disabled = true;
     }
 }
