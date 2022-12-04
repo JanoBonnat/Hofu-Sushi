@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 .parent{
     display: grid;
@@ -8,7 +9,7 @@
 }
 
 body{
-    background-image: url(fondo.png);
+    /*background-image: url(fondo.png);*/
     background-size: 10%;
     background-repeat:repeat;
     background-position: center center;
@@ -104,7 +105,7 @@ ul{
 }
 
 .boton::after{ /*ayuda a crear un elemento dentro del boton*/
-    content: ""; /*con la propiedad de content agrego el elemento */
+    content: ""; /*con la propiedad de content agrego el elemento*/
     height: 1px;
     width: 1px;
     background-color: none;
@@ -136,8 +137,8 @@ ul{
 h4{ 
     background-color: rgb(255, 254, 215);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-size: larger;
+    /*text-align: center;
+    font-size: larger;*/
 }
 .box {
     display: flex;
@@ -154,6 +155,8 @@ h4{
     text-align: center;
 }
 
+/*BARRA DE PROGRESO*/
+
 /*creo dos tipos de variables dentro de la pseudo clase root*/
 :root{
     --linea--borde--relleno: #3498db;
@@ -165,6 +168,7 @@ h4{
 }
 
 .padre{
+    background-image: none;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -215,7 +219,7 @@ h4{
 
 
 
-.circle{
+.circulo{
     height: 30px;
     width: 30px;
     background-color: #fff;
@@ -228,7 +232,7 @@ h4{
     transition: 0,4s ease;
 }
 
-.circle.active{
+.circulo.active{
     border-color: var(--linea--borde--relleno);
 }
 
@@ -250,6 +254,15 @@ h4{
 .btn:disabled{
     background-color: var(--linea--borde--vacio);
 }
+
+.btn:focus{
+    outline: 0;
+}
+
+/*BARRA DE PROGRESO*/
+
+
+
 .titulo_y_logo{
     display: grid;
     align-items: center;
@@ -258,7 +271,7 @@ h4{
 }
 
 .titulo{
-    margin-left: -20px;
+    margin-left: -15px;
     /*background-color: orange;*/
     width: 500px;
     font-size: 25px;
@@ -267,6 +280,25 @@ h4{
 .logo{
     margin-left: 15%;
 }
+
+
+/*.circulo{
+    height: 200px;
+    width: 200px;
+    background-color: #cc1010;
+    border-radius: 100%;
+    animation-name: mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes mover{
+    0%{left: 0;background: #999;}
+    50%{left: 200px;background: #cc1010;}
+    100%{left: 0;background: yellow;}
+}*/
+
 
 
 
