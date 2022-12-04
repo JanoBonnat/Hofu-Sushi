@@ -5,9 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/styleBody.css"/>
+    <link rel="stylesheet" href="css/styleFoot.css">
     <title>Alerta</title>
 </head>
 <body>
+<div class="busc">
+    <div class="titulo_y_logo">
+        <div class="logo"><img src="imagenes/logo.png" alt="logo"></div>
+        <div class="titulo"><h1>HOFU-SUSHI</h1></div>
+    </div>
+    <p>
+    <div class="cabecera">
+    <div class="nav">
+        <button class="boton"><a href="index.html"><span>P.Principal</span></a></button>
+        <button class="boton"><a href="Tipo de Sushi.html"><span>Tipo de Sushi</span></a></button> <!--agrego span para el texto de los botones siempre quede arriba-->
+        <button class="boton"><a href="Info.html"><span>Informacion</span></a></button>
+    </div>
+    </div>
+    </p>
+</div>
     <div class="padre" id="padre">
         <div class="contenedor">
             <div class="progreso-contenedor">
@@ -18,13 +34,39 @@
                 <div class="circulo">4</div>
             </div>
             <div class="texto" id="texto">
-                <p id="p">HOLA CÓMO ESTAS</p>
+                <!--<p id="p">HOLA CÓMO ESTAS</p>-->
             </div>
 
             <button class="btn" id="anterior" disabled>ANTERIOR</button>
             <button class="btn" id="siguiente">SIGUIENTE</button>
         </div>
     </div>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="imagenes/logo.png" alt="logo de hofu sushi">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS:</h2>
+                <p>somos un emprendimiento de sushi el cual empezo el año 2021</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS: </h2>
+                <div class="red-social">
+                    <div id="circulo1"><a href="https://www.instagram.com/hofu_sushi_nqn/" ><img src="imagenes/instagramlogo3.png" width="100%" height="100%" id="instalogo"></a></div>
+                    <div class="facebooklogo" id="circulo2"><a href="https://www.facebook.com/profile.php?id=100063669274120" ><img src="imagenes/facebook.png" width="100%" height="100%"></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>maria florencia saita</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
 
     <script src="JS/script.js"></script>
 </body>

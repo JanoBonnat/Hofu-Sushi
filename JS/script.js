@@ -2,7 +2,7 @@ const progreso = document.getElementById('progreso');
 const anterior = document.getElementById('anterior');
 const siguiente = document.getElementById('siguiente');
 const circulos = document.querySelectorAll('.circulo');
-const p = document.getElementById('p');
+const texto = document.getElementById('texto');
 
 let currentActive = 1; //variable para saber a qué nivel de los pasos vamos
 
@@ -55,16 +55,17 @@ function update(){
     if(currentActive === 1){
         anterior.disabled = true;
         siguiente.disabled = false;
+        texto.textContent = `<h1>HOLA</H1>`;
     }else if(currentActive === 2){
-        p.textContent = "Bien, vos?";
+        
         anterior.disabled = false;
         siguiente.disabled = false;
     }else if(currentActive === 3){
-        p.textContent = 'Todo bien, gracias.';
+        
         anterior.disabled = false;
         siguiente.disabled = false;
     }else if(currentActive === circulos.length){
-        p.textContent = "CHAU";
+        anterior.disabled = false;
         siguiente.disabled = true;
     }
 }
