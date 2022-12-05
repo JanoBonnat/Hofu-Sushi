@@ -67,6 +67,10 @@ ul{
     color: black;
     font-size: 80%;
 }
+
+.cabecera{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px;
+}
 .nav{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -303,6 +307,7 @@ h4{
     /*background-color: orange;*/
     width: 500px;
     font-size: 25px;
+    display: block; /*ancho máximo disponible*/
 }
 
 .logo{
