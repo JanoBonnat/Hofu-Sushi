@@ -310,6 +310,7 @@ h4{
     display: block; /*ancho máximo disponible*/
     white-space: nowrap;
     border-right: 4px solid;
+    width: 10ch; /*Ajusto ancho del título a cantidad de caracteres*/
 }
 
 .logo{
