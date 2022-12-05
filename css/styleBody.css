@@ -308,6 +308,8 @@ h4{
     width: 500px;
     font-size: 25px;
     display: block; /*ancho máximo disponible*/
+    white-space: nowrap;
+    border-right: 4px solid;
 }
 
 .logo{
