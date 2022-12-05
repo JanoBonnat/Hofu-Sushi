@@ -309,8 +309,11 @@ h4{
     font-size: 25px;
     display: block; /*ancho máximo disponible*/
     white-space: nowrap;
-    border-right: 4px solid;
-    width: 10ch;
+    border-right: 2px solid;
+    width: 25.1ch;
+
+    animation: typing 2s steps(24), blink .5s infinite step-end alternate;
+    overflow: hidden;
 }
 
 @keyframes typing{
