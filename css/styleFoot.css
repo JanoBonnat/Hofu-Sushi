@@ -44,7 +44,7 @@
     margin-bottom: 6%;
     margin-left: 4%;
 }
-.pie-pagina .grupo-1 .red-social a{
+/*.pie-pagina .grupo-1 .red-social a{
     display: inline-block;
     text-decoration: none;
     width: 45px;
@@ -58,7 +58,8 @@
 }
 .pie-pagina .grupo-1 .red-social a:hover{
     color: black;
-}
+}*/
+
 .pie-pagina .grupo-2{
     background-color: lightgray;
     padding: 15px 10px;
@@ -72,27 +73,23 @@
 
 .red-social{
     display: flex;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     margin-left: 10px;
 }
 
-#circulo1{
+.circulo1{
     width: 45px;
     height: 45px;
-    background-color: blue;
-    border-radius: 100%;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url(instagramlogo3.png);
+    background-color: white;
 }
-#circulo2{
+.circulo2{
     width: 45px;
     height: 45px;
-    background-color: blue;
-    border-radius: 100%;
+    border-radius: 50%;
     margin-left: 10px;
-}
-
-
-#circulo1 > #instalogo{
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
+    background-image: url(instagramlogo3.png);
+    background-color: white;
 }
