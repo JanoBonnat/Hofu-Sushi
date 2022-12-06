@@ -375,12 +375,18 @@ h4{
     margin-left: 15%;
 }
 
+
+
 /*REGISTRARSE*/
 
-/*.registrarse{
-    display: grid;
-    grid-template-rows: repeat(4,1fr);
-}*/
+body .registrarse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+/*END REGISTRARSE*/
 
 
 
