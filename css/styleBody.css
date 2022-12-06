@@ -37,17 +37,18 @@ ul{
     grid-template-rows: auto;
    
 }
+
 .catalogocaja{
     border: 1px solid black;
     text-align: center;
     margin: 3%;
 }
+
 .catalogocaja:hover{
-    border: 1px solid yellow;
-    content: 'Hola. buenas tardes';
     text-align: center;
     margin: 3%;
     z-index: 1;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
 .catalogocaja img{
