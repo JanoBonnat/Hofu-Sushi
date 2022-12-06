@@ -375,22 +375,12 @@ h4{
     margin-left: 15%;
 }
 
-/*.circulo{
-    height: 200px;
-    width: 200px;
-    background-color: #cc1010;
-    border-radius: 100%;
-    animation-name: mover;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    position: relative;
-}
+/*REGISTRARSE*/
 
-@keyframes mover{
-    0%{left: 0;background: #999;}
-    50%{left: 200px;background: #cc1010;}
-    100%{left: 0;background: yellow;}
-}*/
+.registrarse{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+}
 
 
 
