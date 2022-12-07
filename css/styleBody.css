@@ -447,8 +447,15 @@ input:focus~.barra{
 button{
     display: block;
     margin: 10px auto;
+    font-size: 18px;
+    border: none;
+    border: 1px solid;
+    cursor: pointer;
 }
 
+.button:active:active{
+    transform: scale(0.98); /*le da un efecto al tocar el boton*/
+}
 /*END REGISTRARSE*/
 
 
