@@ -383,14 +383,18 @@ body .registrarse{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 917px;
     width: 100%;
     margin: auto;
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 form{
     padding: 40px 30px;
-    background-color: yellow;
+    background-color: white;
     border-radius: 10px;
 }
 form .label_e_input{
