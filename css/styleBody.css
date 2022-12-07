@@ -383,7 +383,11 @@ body .registrarse{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 650px;
+    height: 800px;
+}
+
+.input{
+    margin: 30px;
 }
 
 /*END REGISTRARSE*/
