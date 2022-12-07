@@ -386,18 +386,30 @@ body .registrarse{
     height: 800px;
 }
 
+form{
+    padding: 40px 0;
+    background-color: yellow;
+}/*
+form .label_e_input{
+    position: relative;
+}
+
 input{
     margin: 30px;
     padding: 10px 10px 10px 5px;
-    display: block; /*Se comportan como bloques*/
+    display: block; /*Se comportan como bloques*//*
     border: none;
     border-bottom: 1px solid;
 }
 
 input:focus{  
-    outline: none; /*cuando toque el input no se van a marcar lo0s bordes*/
+    outline: none; /*cuando toque el input no se van a marcar lo0s bordes*//*
 }
 
+label{
+    top: 15px;
+    left: 15px;
+}
 
 /*END REGISTRARSE*/
 
