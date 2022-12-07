@@ -416,9 +416,11 @@ label{
     transition: .4s ease-in-out all; /*su animación va a ser más lenta*/
 }
 
-input:focus~label{ /*cuando toque el input, el label va a subir*/
+input:focus~label,/*cuando toque el input, el label va a subir*/
+input:valid~label{ /*cuando el input sea válido, el label también*/
     top: -14px;
-    font-size: 12px;
+    font-size: 15px;
+    color: var(--linea--borde--relleno);
 }
 
 
