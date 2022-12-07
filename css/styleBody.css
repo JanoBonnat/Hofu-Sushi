@@ -391,6 +391,7 @@ input{
     padding: 10px 10px 10px 5px;
     display: block; /*Se comportan como bloques*/
     border: none;
+    border-bottom: 1px solid;
 }
 
 
