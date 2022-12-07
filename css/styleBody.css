@@ -394,6 +394,10 @@ input{
     border-bottom: 1px solid;
 }
 
+input:focus{  
+    outline: none; /*cuando toque el input no se van a marcar lo0s bordes*/
+}
+
 
 /*END REGISTRARSE*/
 
