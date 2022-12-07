@@ -410,6 +410,8 @@ input:focus{
 
 label{
     position: absolute;
+    left: 5px;
+    top: 10px;
 }
 
 
