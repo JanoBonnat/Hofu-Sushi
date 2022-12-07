@@ -445,9 +445,11 @@ input:focus~.barra{
 }
 
 button{
-   display: block;
-   margin: 10px auto;
+    display: block;
+    margin: 10px auto;
 }
+
+/*END REGISTRARSE*/
 
 
 
