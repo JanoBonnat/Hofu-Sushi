@@ -423,6 +423,27 @@ input:valid~label{ /*cuando el input sea válido, el label también*/
     color: var(--linea--borde--relleno);
 }
 
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.barra::before{
+    content: "";
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: var(--linea--borde--relleno);
+    position:absolute;
+    transition: 0.6s ease width;
+}
+
+input:focus~.barra::before{
+    width: 100%;
+}
+
 
 
 
