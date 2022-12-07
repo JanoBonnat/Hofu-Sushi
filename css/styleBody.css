@@ -386,8 +386,9 @@ body .registrarse{
     height: 800px;
 }
 
-.input{
+input{
     margin: 30px;
+    padding: 10px 10px 10px 10px;
 }
 
 /*END REGISTRARSE*/
