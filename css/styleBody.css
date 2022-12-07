@@ -391,6 +391,7 @@ body .registrarse{
 form{
     padding: 40px 30px;
     background-color: yellow;
+    border-radius: 10px;
 }
 form .label_e_input{
     position: relative;
