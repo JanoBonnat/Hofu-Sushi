@@ -413,11 +413,12 @@ label{
     left: 5px;
     top: 10px;
     color: #c6c6c6;
-    transition: .4s ease-in-out all;
+    transition: .4s ease-in-out all; /*su animación va a ser más lenta*/
 }
 
 input:focus~label{ /*cuando toque el input, el label va a subir*/
-    top: -14px;     
+    top: -14px;
+    font-size: 12px;
 }
 
 
