@@ -388,7 +388,9 @@ body .registrarse{
 
 input{
     margin: 30px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 5px;
+    display: block; /*Se comportan como bloques*/
+    border: none;
 }
 
 
