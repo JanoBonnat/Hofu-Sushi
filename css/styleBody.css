@@ -390,7 +390,6 @@ body .registrarse{
 
 form{
     padding: 40px 0;
-    background-color: yellow;
 }
 form .label_e_input{
     position: relative;
@@ -402,6 +401,15 @@ input{
     display: block;
     width: 100%;
     border: none;
+    border-bottom: 1px solid;
+}
+
+input:focus{
+    outline: none;
+}
+
+label{
+    position: absolute;
 }
 
 
