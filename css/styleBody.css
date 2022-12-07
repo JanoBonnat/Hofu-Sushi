@@ -413,6 +413,7 @@ label{
     left: 5px;
     top: 10px;
     color: #c6c6c6;
+    transition: .4s ease-in-out all;
 }
 
 input:focus~label{ /*cuando toque el input, el label va a subir*/
